@@ -7,7 +7,7 @@
 *
 * @NoArgsConstructor(access = AccessLevel.PRIVATE)
 */
-public class Main {
+public final class Main {
   public static void main(final String[] args) {
     // use MrCoxallStack class
     MrCoxallStack aStack = new MrCoxallStack();

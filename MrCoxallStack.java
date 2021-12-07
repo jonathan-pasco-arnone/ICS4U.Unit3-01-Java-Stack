@@ -12,7 +12,9 @@ import java.util.ArrayList;
 * This is the class that contains many functions.
 */
 public final class MrCoxallStack {
-  // Create the stack as an ArrayList.
+  /**
+  * Create the stack as an ArrayList.
+  */
   private ArrayList<Integer> stackAsArray = new ArrayList<Integer>();
 
   /**
@@ -20,7 +22,7 @@ public final class MrCoxallStack {
   *
   * @param pushNumber this is the inputtes number to be added
   */
-  public void push(Integer pushNumber) {
+  public void push(final Integer pushNumber) {
     stackAsArray.add(pushNumber);
   }
   Integer counter;
