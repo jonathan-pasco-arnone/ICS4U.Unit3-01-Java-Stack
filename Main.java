@@ -9,13 +9,13 @@
 /**
 * This is the Main function outer layer.
 */
-final class Main {
+public class Main {
   /**
   * This is the main function.
   *
   * @param args this will not be used
   */
-  public static void main(String[] args) {
+  public static void main(final String[] args) {
     // use MrCoxallStack class
     MrCoxallStack aStack = new MrCoxallStack();
 
