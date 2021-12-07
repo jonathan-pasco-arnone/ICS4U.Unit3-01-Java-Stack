@@ -1,5 +1,10 @@
-// Created on:  Dec-2021
-// Created by:  Jonathan Pasco-Arnone
+/*
+* This is the Main function.
+*
+* @author  Jonathan Pasco-Arnone
+* @version 1.0
+* @since   2021-12-01
+*/
 
 import java.util.ArrayList;
 
@@ -22,7 +27,6 @@ public final class MrCoxallStack {
   
   /**
   * Prints the ArrayList.
-  *
   */
   public void showStack() {
     System.out.println(stackAsArray);

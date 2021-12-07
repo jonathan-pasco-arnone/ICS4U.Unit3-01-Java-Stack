@@ -1,15 +1,19 @@
 /**
 * This is the Main function.
+*
+* @author  Jonathan Pasco-Arnone
+* @version 1.0
+* @since   2021-12-01
 */
-class Main {
-	public static void main(String[] args) {
-		// use MrCoxallStack class
-		MrCoxallStack aStack = new MrCoxallStack();
+private class Main {
+  public static void main(final String[] args) {
+    // use MrCoxallStack class
+    MrCoxallStack aStack = new MrCoxallStack();
 
     final int fourtyTwo = 42;
     final int ninetyOne = 91;
-		System.out.println("Initial stack: ");
-		aStack.showStack();
+    System.out.println("Initial stack: ");
+    aStack.showStack();
 
     System.out.println("Adding new value");
     aStack.push(fourtyTwo);
@@ -20,5 +24,5 @@ class Main {
     aStack.push(ninetyOne);
     System.out.println("New stack: ");
     aStack.showStack();
-	}
+  }
 }
