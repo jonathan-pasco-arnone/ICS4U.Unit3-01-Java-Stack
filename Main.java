@@ -4,7 +4,6 @@
 * @author  Jonathan Pasco-Arnone
 * @version 1.0
 * @since   2021-12-01
-*
 */
 
 /**
@@ -12,9 +11,11 @@
 */
 final class Main {
   /**
-  * This is the main function
+  * This is the main function.
+  *
+  * @param args this will not be used
   */
-  public static void main(final String[] args) {
+  public static void main(String[] args) {
     // use MrCoxallStack class
     MrCoxallStack aStack = new MrCoxallStack();
 
