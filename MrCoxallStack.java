@@ -25,7 +25,6 @@ public final class MrCoxallStack {
   public void push(final Integer pushNumber) {
     stackAsArray.add(pushNumber);
   }
-  Integer counter;
 
   /**
   * Prints the ArrayList.
