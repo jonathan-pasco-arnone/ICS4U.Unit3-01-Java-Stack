@@ -1,13 +1,19 @@
-/**
-* This is the Main function.
+/*
+* This program uses a custom class.
 *
 * @author  Jonathan Pasco-Arnone
 * @version 1.0
 * @since   2021-12-01
 *
-* @NoArgsConstructor(access = AccessLevel.PRIVATE)
 */
-public final class Main {
+
+/**
+* This is the Main function outer layer.
+*/
+final class Main {
+  /**
+  * This is the main function
+  */
   public static void main(final String[] args) {
     // use MrCoxallStack class
     MrCoxallStack aStack = new MrCoxallStack();
