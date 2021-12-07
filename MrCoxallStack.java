@@ -20,7 +20,7 @@ public final class MrCoxallStack {
   /**
   * Adds a number to the ArrayList.
   *
-  * @param pushNumber this is the inputtes number to be added
+  * @param pushNumber this is the inputted number to be added
   */
   public void push(final Integer pushNumber) {
     stackAsArray.add(pushNumber);
