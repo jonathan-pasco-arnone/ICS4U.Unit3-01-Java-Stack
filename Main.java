@@ -9,29 +9,46 @@
 /**
 * This is the Main function outer layer.
 */
-public class Main {
-  /**
-  * This is the main function.
-  *
-  * @param args this will not be used
-  */
-  public static void main(final String[] args) {
-    // use MrCoxallStack class
-    MrCoxallStack aStack = new MrCoxallStack();
+final class Main {
+    /**
+    * Prevent instantiation
+    * Throw an exception IllegalStateException.
+    * if this ever is called
+    *
+    * @throws IllegalStateException
+    *
+    */
+    private Main() {
+        // Prevent instantiation
+        // Optional: throw an exception e.g. AssertionError
+        // if this ever *is* called
+        throw new IllegalStateException("Cannot be instantiated");
+    }
 
-    final int fourtyTwo = 42;
-    final int ninetyOne = 91;
-    System.out.println("Initial stack: ");
-    aStack.showStack();
+    /**
+    * This is the main function.
+    *
+    * @param args this will not be used
+    */
+    public static void main(final String[] args) {
+        // use MrCoxallStack class
+        final MrCoxallStack aStack = new MrCoxallStack();
+        final String addedNewNumber = "Added new number";
+        final String newStack = "New Stack: ";
 
-    System.out.println("Adding new value");
-    aStack.push(fourtyTwo);
-    System.out.println("New stack: ");
-    aStack.showStack();
+        final int fourtyTwo = 42;
+        final int ninetyOne = 91;
+        System.out.println("Initial stack: ");
+        aStack.showStack();
 
-    System.out.println("Adding new value");
-    aStack.push(ninetyOne);
-    System.out.println("New stack: ");
-    aStack.showStack();
-  }
+        System.out.println(addedNewNumber);
+        aStack.push(fourtyTwo);
+        System.out.println(newStack);
+        aStack.showStack();
+
+        System.out.println(addedNewNumber);
+        aStack.push(ninetyOne);
+        System.out.println(newStack);
+        aStack.showStack();
+    }
 }

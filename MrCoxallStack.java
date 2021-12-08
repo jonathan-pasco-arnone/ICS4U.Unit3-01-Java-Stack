@@ -23,7 +23,7 @@ public final class MrCoxallStack {
   * @param pushNumber this is the inputted number to be added
   */
   public void push(final Integer pushNumber) {
-    stackAsArray.add(pushNumber);
+    stackAsArray.add(0, pushNumber);
   }
 
   /**
